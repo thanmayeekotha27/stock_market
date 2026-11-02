@@ -1,0 +1,29 @@
+# Environment secrets
+.env
+.env.local
+
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Streamlit secrets (track config.toml for dark theme, ignore secrets)
+.streamlit/secrets.toml
+
+# Data artifacts
+data/*.csv
+data/*.pdf
+data/*.json
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
